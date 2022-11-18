@@ -1,4 +1,4 @@
-#include "libraries.h"
+#include "functii.h"
 
 int sumaCifrelor(int n) {
 	if (n == 0) {
