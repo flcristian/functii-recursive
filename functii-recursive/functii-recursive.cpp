@@ -1,8 +1,7 @@
 #include "probleme.h"
 
 int main() {
-	int n = 172849, c = 0;
-	sufixeNumar(n, c);
+	cout << permutareStanga(54187, 0, 0);
 }
 
 
