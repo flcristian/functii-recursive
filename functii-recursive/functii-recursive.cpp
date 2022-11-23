@@ -1,7 +1,8 @@
 #include "probleme.h"
 
-void main() {
-	cout << sumaCifrelor(402156);
+int main() {
+	int n = 172849, c = 0;
+	sufixeNumar(n, c);
 }
 
 
