@@ -1,4 +1,8 @@
-#include "libraries.h"
+#include <iostream>
+#include <fstream>
+#include <string>
+
+using namespace std;
 
 // Factorialul unui numar.
 
