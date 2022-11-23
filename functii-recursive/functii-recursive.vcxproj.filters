@@ -23,8 +23,8 @@
     <ClInclude Include="functii.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="libraries.h">
-      <Filter>Source Files</Filter>
+    <ClInclude Include="probleme.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

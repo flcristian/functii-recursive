@@ -1,7 +1,7 @@
-#include "functii.h"
+#include "probleme.h"
 
 void main() {
-	cout << factorial(6);
+	cout << sumaCifrelor(402156);
 }
 
 
