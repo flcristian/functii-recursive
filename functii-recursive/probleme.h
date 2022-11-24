@@ -163,11 +163,12 @@ int eliminarePrimaUltimaCifra(int n) {
 // Problema 11 ???
 
 int invers(int n, int r) {
-	if (n != 0) {
-		r = r * 10 + n % 10;
-		return invers(n / 10, r);
+
+	if (n == 0) {
+		return r;
 	}
-	return r;
+	r = r * 10 + n % 10;
+	return invers(n / 10, r);
 }
 
 bool palindrom(int n) {
@@ -277,3 +278,4 @@ int permutareDreapta(int n, int r1, int r2) {
 	}
 	return r1 / 10 + r2;
 }
+

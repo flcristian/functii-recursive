@@ -1,7 +1,7 @@
 #include "probleme.h"
 
 int main() {
-	cout << permutareDreapta(54187, 0, 0);
+	pb9(123);
 }
 
 

@@ -107,3 +107,32 @@ int problema6(int x, int y) {
 	}
 	return 1;
 }
+
+// Exercitiu 7 - stiva de apelare (Pb. 29)
+
+void pb7(int x, int y) {
+	for (int i = x; i <= y; i++) {
+		cout << i;
+		pb7(i + 1, y);
+	}
+}
+
+// Exercitiu 8 - stiva de apelare (Pb. 30)
+
+void pb8(int x) {
+	if (x <= 9) {
+		cout << x + 1;
+		pb8(x + 2);
+		cout << x + 3;
+	}
+}
+
+// Exercitiu 9 - stiva de apelare (Pb. 28)
+
+void pb9(int x) {
+	if (x != 0) {
+		cout << x;
+		pb9(x / 10);
+		cout << x % 10;
+	}
+}
