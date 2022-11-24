@@ -265,3 +265,15 @@ int permutareStanga(int n, int r, int c) {
 
 // Problema 20
 
+int permutareDreapta(int n, int r1, int r2) {
+	if (n != 0) {
+		if (r1 == 0) {
+			r1 = n % 10;
+		}
+		if (r2 == 0) {
+			r2 = n / 10;
+		}
+		return permutareDreapta(n / 10, r1 * 10, r2);
+	}
+	return r1 / 10 + r2;
+}
